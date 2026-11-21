@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 25,
+    "ModTable": "Force_FTB",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "SchemaVersion": 1,
+    "Optional": true,
+    "Tabs": [
+        {
+            "TabName": "Keybindings",
+            "TabId": "keybindings",
+            "Sections": [
+                {
+                    "SectionId": "pause_hotkey_section",
+                    "SectionName": "Force Turn-Based",
+                    "Settings": [
+                        {
+                            "Id": "pause_toggle_hotkey",
+                            "Name": "Pause Toggle Hotkey",
+                            "Type": "keybinding",
+                            "Default": {
+                                "ScanCode": "SPACE",
+                                "Modifier": "LShift"
+                            },
+                            "Description": "Hotkey for entering or exiting force turn-based mode."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TabName": "Controller",
+            "TabId": "controller",
+            "Sections": [
+                {
+                    "SectionId": "controller_pause_hotkey_section",
+                    "SectionName": "Force Turn-Based",
+                    "Settings": [
+                        {
+                            "Id": "controller_pause_toggle_hotkey",
+                            "Name": "Pause Toggle Hotkey",
+                            "Type": "enum",
+                            "Default": "RightStick",
+                            "Options": {
+                                "Choices": [
+                                    "",
+                                    "A",
+                                    "B",
+                                    "X",
+                                    "Y",
+                                    "DPadLeft",
+                                    "DPadRight",
+                                    "DPadUp",
+                                    "DPadDown",
+                                    "Back",
+                                    "Start",
+                                    "Touchpad",
+                                    "LeftStick",
+                                    "RightStick",
+                                    "LeftShoulder",
+                                    "RightShoulder",
+                                    "TriggerLeft",
+                                    "TriggerRight"
+                                ]
+                            }
+                        },
+                        {
+                            "Id": "controller_pause_toggle_hotkey_2",
+                            "Name": "Pause Toggle Hotkey 2 (Optional)",
+                            "Type": "enum",
+                            "Default": "",
+                            "Options": {
+                                "Choices": [
+                                    "",
+                                    "A",
+                                    "B",
+                                    "X",
+                                    "Y",
+                                    "DPadLeft",
+                                    "DPadRight",
+                                    "DPadUp",
+                                    "DPadDown",
+                                    "Back",
+                                    "Start",
+                                    "Touchpad",
+                                    "LeftStick",
+                                    "RightStick",
+                                    "LeftShoulder",
+                                    "RightShoulder",
+                                    "TriggerLeft",
+                                    "TriggerRight"
+                                ]
+                            },
+                            "Description": "If hotkey 2 is set, both buttons must be pressed together. Leave hotkey 2 blank to use a single controller button."
+                        },
+                        {
+                            "Id": "controller_pause_toggle_hotkey_override",
+                            "Name": "Override",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "If checked, override this button's default functionality."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
