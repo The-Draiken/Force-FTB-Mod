@@ -59,7 +59,7 @@ Changes take effect as soon as you save them in MCM. No reload is needed.
 - Uses Script Extender events and the game's built-in Force Turn-Based function. It doesn't edit game data files, so it should work with most other mods.
 - Safe to add mid-playthrough.
 
-## Credits
+## Reports
+Need Help, want to report a Bug or just comment somthing about this Mod. You can do so here: https://rpghq.org/forums/viewtopic.php?p=434214-force-ftb-mode-1-0-baldur-s-gate-3 
 
-- Norbyte, for the BG3 Script Extender
-- The Mod Configuration Menu authors
+(Be aware of how the site is though if you venture out of the thread for my Mod, people on the site are very unhinged)
